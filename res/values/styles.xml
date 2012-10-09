@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="Style.infolabel" parent="android:Theme">
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">#FFF</item>
+		<item name="android:gravity">center</item>
+	</style>
+	<style name="Style.infolabel_orange" parent="android:Theme">
+		<item name="android:textSize">18sp</item>
+		<item name="android:textColor">@color/Color.orange</item>
+		<item name="android:gravity">center</item>
+		<item name="android:padding">10px</item>
+	</style>
+	<style name="Style.app_logo" parent="android:Theme">
+		<item name="android:background">@drawable/logo</item>
+		<item name="android:layout_width">wrap_content</item>
+		<item name="android:layout_height">wrap_content</item>
+		<item name="android:layout_marginLeft">20px</item>
+		<item name="android:layout_alignParentTop">true</item>
+		<item name="android:layout_alignParentLeft">true</item>
+		<item name="android:layout_marginTop">6dip</item>
+		<item name="android:layout_marginBottom">8dip</item>
+	</style>
+	<style name="Style.orange_bg" parent="android:Theme">
+		<item name="android:background">@color/Color.orange</item>
+	</style>
+	<style name="Style.grey_bg" parent="android:Theme">
+		<item name="android:background">@color/Color.grey</item>
+	</style>
+	<style name="Style.white_bg" parent="android:Theme">
+		<item name="android:background">@color/Color.white</item>
+	</style>
+	<style name="Style.tab_font_size" parent="android:Theme">
+	<item name="android:textSize">15px</item>
+	</style>
+
+	<style name="Style.feed_list" parent="android:Theme">
+		<item name="android:cacheColorHint">#EEE</item>
+	</style>
+
+	<style name="Style.main_framelayout_style" parent="android:Theme">
+		<item name="android:background">@color/Color.white</item>
+	</style>
+
+	<style name="MNM.Prefs.TextView.ListSeparator" parent="android:Theme">
+		<item name="android:background">@color/Color.orange</item>
+		<item name="android:layout_width">fill_parent</item>
+		<item name="android:layout_height">25dip</item>
+		<item name="android:textStyle">bold</item>
+		<item name="android:textColor">@color/Color.white</item>
+		<item name="android:textSize">14sp</item>
+		<item name="android:gravity">center_vertical</item>
+		<item name="android:paddingLeft">5sp</item>
+	</style>
+
+	<style name="MNM.Widget.TabWidget" parent="android:Theme">
+		<item name="android:textAppearance">@style/MNM.TextAppearance.Widget.TabWidget</item>
+		<item name="android:ellipsize">marquee</item>
+		<item name="android:singleLine">true</item>
+	</style>
+
+	<style name="MNM.TextAppearance.Widget.TabWidget" parent="android:Theme">
+		<item name="android:textSize">20sp</item>
+		<item name="android:textStyle">normal</item>
+		<item name="android:textColor">@android:color/tab_indicator_text</item>
+	</style>
+
+</resources>

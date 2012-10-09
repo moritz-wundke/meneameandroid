@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/linlayoutBase" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:orientation="vertical">
+
+	<ScrollView android:id="@+id/scrollview"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_weight="1">
+		<LinearLayout android:id="@+id/widget30"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:orientation="vertical">
+			<!-- FAQ -->
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/tilte_faq"
+				android:text="@string/about_title_faq" android:textColor="@color/Color.white"
+				android:textScaleX="1.5" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/about_faq_q1"
+				android:singleLine="false" android:text="@string/about_faq_q1"
+				android:autoLink="web" android:textStyle="bold" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/about_faq_a1"
+				android:singleLine="false" android:text="@string/about_faq_a1"
+				android:autoLink="web" android:layout_marginLeft="10px" />
+			<!-- APP stuff -->
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/tilte_app"
+				android:text="@string/about_title_app" android:textColor="@color/Color.white"
+				android:textScaleX="1.5" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/body_app"
+				android:singleLine="false" android:text="@string/about_body_app"
+				android:autoLink="web" />
+			<!-- meneame.net stuff -->
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/tilte_meneame"
+				android:text="@string/about_title_meneame" android:textColor="@color/Color.white"
+				android:textScaleX="1.5" />
+			<TextView android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:id="@+id/body_meneame"
+				android:singleLine="false" android:text="@string/about_body_meneame"
+				android:autoLink="web" />
+		</LinearLayout>
+	</ScrollView>
+
+	<LinearLayout android:id="@+id/linlayoutButtons"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_weight="0">
+		<Button android:id="@+id/btnOk" android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="Ok"
+			android:layout_weight="1" />
+	</LinearLayout>
+</LinearLayout>

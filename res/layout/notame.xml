@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent">
+	<ImageButton android:id="@+id/applogo" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:layout_alignParentTop="true"
+		android:layout_marginLeft="20px" android:layout_marginBottom="6dip"
+		android:src="@drawable/app_logo"
+		android:background="@null"/>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent" android:layout_height="fill_parent"
+		android:orientation="vertical"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/applogo">
+		
+		<EditText android:id="@+id/notame_text" android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:layout_weight="1">
+		</EditText>
+		<LinearLayout android:id="@+id/LinearLayout01"
+			android:layout_width="fill_parent" android:layout_height="wrap_content"
+			android:layout_weight="0">
+			<Button android:id="@+id/btnSend" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/generic_send"
+				android:layout_weight="1" />
+			<Button android:id="@+id/btnBack" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="@string/generic_back"
+				android:layout_weight="1" />
+		</LinearLayout>
+	</LinearLayout>
+</RelativeLayout>

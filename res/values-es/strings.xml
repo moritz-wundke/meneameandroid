@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--
+		================================================================ UI
+		Elements
+		================================================================
+	-->
+
+	<!-- Main Activity -->
+
+	<string name="app_name">men\u00E9ame</string>
+	<string name="hello">¡Bienvenido a men\u00E9ame!</string>
+
+	<!-- Tab Pages -->
+
+	<string name="main_tab_news">Portada</string>
+	<string name="main_tab_queue">En cola</string>
+	<string name="main_tab_comments">Comentarios</string>
+
+	<!-- UI Lsts -->
+
+	<string name="empty_list">Lista vacia... Tocar para refrescar</string>
+	<string name="meneo_item_open">Vista detallada</string>
+	<string name="meneo_item_open_meneame">Abrir (menéame)</string>
+	<string name="meneo_item_open_source">Abrir (fuente)</string>
+	<string name="meneo_item_vote">Menéalo</string>
+	<string name="meneo_item_share">Compartir</string>
+
+	<!-- Menu -->
+
+	<string name="main_menu_refresh">Refrescar</string>
+	<string name="main_menu_notame">Nótame</string>
+	<string name="main_menu_settings">Preferencias</string>
+	<string name="main_menu_about">Acerca de</string>
+
+	<!-- Button Callouts -->
+	<string name="generic_send">Enviar</string>
+	<string name="generic_back">Atrás</string>
+	<string name="generic_ok">Ok</string>
+	<string name="generic_yes">Si</string>
+	<string name="generic_no">No</string>
+
+	<!-- Share feed item option -->
+	<string name="share_option_title">Compartir Artículo</string>
+	<string name="share_option_subject">Men\u00E9ame para Android: SUBJECT</string>
+
+	<!-- Messages and Info -->
+	<string name="refreshing_lable">Cargando...</string>
+	<string name="refreshing_lable_cached">Cargando feeds descargados...</string>
+	<string name="context_menu_open">Abriéndo menèame.net</string>
+	<string name="context_menu_open_source">Abriéndo fuente</string>
+	<string name="advice_not_implemented">Ooops.. ¡Aún no implementado!</string>
+	<string name="confirm_clear_cache">¿Borrar feeds descargados?</string>
+	<string name="clear_cache_successfull">Los feeds descargados han sido borrados!</string>
+	<string name="notame_setup_data">Antes de usar Nótame has de configurar tu nombre de
+		usario y clave de API\n¿Quieres configurarlos ahora?</string>
+	<string name="notame_setup_data_tilte">Configuración Nótame</string>
+	<string name="menealo_setup_data">Has de configurar el UserID y la Clave-API antes de
+		votar un artículo.\n¿Quieres configurarlo ahora mismo?</string>
+	<string name="menealo_setup_data_tilte">Configuración Menéalo</string>
+	<string name="menealo_send">¡Tu voto ha sido enviado!</string>
+	<string name="crash_report_question">The app detected a crash! Do you want to send the
+		log file to the developer?</string>
+	<string name="themes_not_available_sdk_version">¡Temas solo disponibles para versiones de Android 1.6 o mayores!</string>
+
+	<!-- Version changeset -->
+	<string name="version_title">Version NUMBER (LABLE)</string>
+	<string name="version_change_title">Cambios de Versiones</string>
+	
+	<string name="version_change_v14_title">Version 14 (0.3.1)</string>
+	<string name="version_change_v14">- TODO</string>	
+	
+	<string name="version_change_v13_title">Version 13 (0.3.0)</string>
+	<string name="version_change_v13">- Android 2.1 hotfix</string>	
+	
+	<string name="version_change_v12_title">Version 12 (0.2.6)</string>
+	<string name="version_change_v12">- Arreglos menores para la versión 0.2.5.\nAVISO: Cuándo detectéis un \'forzar cierre\' enviadnos el log usándo cualquier app tipo \'Log Collector\' del market.</string>
+	
+	<string name="version_change_v11_title">Version 11 (0.2.5)</string>
+	<string name="version_change_v11">- Forzar cierre arregaldo para vesiones Android 1.5 y 1.6.</string>
+	
+	<string name="version_change_v10_title">Version 10 (0.2.4)</string>
+	<string name="version_change_v10">- Revisión de estilos.\n- Añadido nuevo tema, podéis verlo en las preferencias.\n- Opción añadida para seleccionar la acción que se deba realizar al tocar un artículo. Por defeco se abre la fuente.\n- Arreglos menores.</string>
+	
+	<string name="version_change_v9_title">Version 9 (0.2.3)</string>
+	<string name="version_change_v9">- Primera version del sistema de envio de noticias! Es el primer paso, cuando la autentificación este integrada será mucho más potente!</string>
+	
+	<string name="version_change_v8_title">Version 8 (0.2.2)</string>
+	<string name="version_change_v8">- Añadida opción para compartir artículos\n-
+		Añadido vista detallada para artículos. Recordad que para acceder a
+		las opciones avanzadas tenéis que mantener encima de un artículo, se
+		desplegarán las opciones disponibles. Para volver rápidamente de la
+		vista detallada a la lista de artículos podéis tocar logo de menéame o
+		con el botón de \'atrás\' de vuestro teléfono.\n- Añadida nueva opción
+		para
+		invertir la lista, el primer element estará en la parte inferior
+		de la
+		lista de feeds\n- Nuevos datos para los artículos: \'Usuario\'
+		and
+		\'Fecha\'\n- Si tocais el logo de menéame estéis donde estéis
+		volveréis a la lista de artículos.\nMejora de estabilidad general,
+		podéis refrescar en cualquier elemento y cerrar la applicación, la
+		tarea se finalizará y tendréis todo actualizado.</string>
+		
+	<string name="version_change_v7_title">Version 7 (0.2.1)</string>
+	<string name="version_change_v7">- Compatible con Android 1.5 (Cupcake)\n- Arreglado
+		bug con la opción \'Refrescar al lanzar\'</string>
+		
+	<string name="version_change_v6_title">Version 6 (0.2.0)</string>
+	<string name="version_change_v6">- ¡Mejora de velocidad! ¡Espero que ya no tengáis
+		parones!\n- El método de caché es ahora interno, ya que es necesario
+		para la mejora del rendimiento.\n- Sistema de votos en prueba!\nAún no
+		he terminado con la compatibilidad con la version 1.5 (Cupcake) de
+		Android, pero no es preocupéis, sigo en ello!</string>
+		
+	<string name="version_change_v5_title">Version 5 (0.1.5)</string>
+	<string name="version_change_v5">- Arreglos menores</string>
+	
+	<string name="version_change_v4_title">Version 4 (0.1.4)</string>
+	<string name="version_change_v4">- Sistema de caché en base de datos y mejora de
+		rendimiento general\n- Mejora de estabilidad general\n- Primeras
+		pruebas del sistema de reporte de errores automático</string>
+		
+	<string name="version_change_v3_title">Version 3 (0.1.3)</string>
+	<string name="version_change_v3">- Implementado proceso de caché en tarjeta SD\n-
+		Añadido vista para añadir notas a Nótame</string>
+		
+	<string name="version_change_v2_title">Version 2 (0.1.2)</string>
+	<string name="version_change_v2">- Arreglándo fallos de memoria\n- Limpiándo
+		contenido de las listas al cambiar, falta el proceso de cacheo para
+		que no se pierda la información.</string>
+		
+	<string name="version_change_v1_title">Version 1 (0.1.1)</string>
+	<string name="version_change_v1">- Primera version beta</string>
+
+	<!-- About info -->
+	<string name="about_title">men\u0027ame para Android</string>
+	<string name="about_title_faq">FAQ</string>
+	<string name="about_faq_q1">¿Es la applicación totalmente gratis?</string>
+	<string name="about_faq_a1">¡Sí! Si quieres ayudarnos a mejorar busca la
+		applicación de donación que estará disponible en breve en el Market de
+		Android!</string>
+	<string name="about_title_app">App license</string>
+	<string name="about_body_app">menéame for Android is made by Moritz Wundke
+		(www.DarkCultureGames.com) and pakore. Licensed under GNU General Public
+		License (http://www.gnu.org/licenses/gpl.html)more info: http://code.google.com/p/meneameandroid/\nGraphics are
+		made by Menéame Comunicacions, SL and licensed under Creative Commons
+		(http://creativecommons.org/licenses/by-sa/2.5/)</string>
+	<string name="about_title_meneame">Menéame license</string>
+	<string name="about_body_meneame">meneame.net is made by Menéame Comunicacions, SL
+	</string>
+
+	<!-- Errors -->
+	<string name="clear_cache_failed">Fallo al borrar feeds descargados!</string>
+	<string name="clear_cache_sdcard_notwritebale">No se puede escribir en la tarjeta SD o no esta
+		presente!</string>
+	<string name="error_unknown">Error desconocido</string>
+	<string name="msg_obj_wrong_type_unknown">msg.obj no es una instancia de \u0027Feed\u0027
+	</string>
+	<string name="msg_obj_null">¡msg.obj es nulo!</string>
+	<string name="refreshing_failed">No se ha podidio refrescar el feed:</string>
+	<string name="refreshing_thread_still_alive">Hilo de refresco aún activo!</string>
+	<string name="user_id_invalid">ID de usuario inválida! Revisa tus preferencias!
+	</string>
+
+	<!-- Feed Errors -->
+	<string name="feed_host_unavailable">Sin conexión de datos!</string>
+	<string name="feed_cache_file_not_found">No hay feeds descargados!</string>
+	<string name="feed_invalid_data">Feed contiene errores!</string>
+	<string name="feed_no_articles">Feed no contiene artículos!</string>
+
+	<!-- Nótame erros messages -->
+	<string name="notame_sending">Enviando...</string>
+	<string name="notame_ok">Mensaje ha sido enviado a Nótame!</string>
+	<string name="notame_failed">No se ha podido enviar el mensaje a Nótame!
+	</string>
+
+	<!--
+		================================================================
+		Preference
+		================================================================
+	-->
+
+	<string name="app_pref_name">Preferencias</string>
+
+	<!-- Account Settings -->
+
+	<string name="pref_account">Cuenta</string>
+
+	<string name="pref_account_apikey_summary">Clave-API menéame (no compartir, es tu clave
+		personal)</string>
+	<string name="pref_account_apikey">Clave-API</string>
+
+	<string name="pref_account_user_id_summary">menèame user ID (lo podrás encontrar en tu perfil)
+	</string>
+	<string name="pref_account_user_id">ID de usuario</string>
+
+	<string name="pref_account_user_summary">Nombre de usuario de menéame</string>
+	<string name="pref_account_user">Usuario</string>
+
+	<!-- Style customizations -->
+
+	<string name="pref_style">Estilos</string>
+
+	<string name="pref_style_mainanimation">Animación</string>
+	<string name="pref_style_mainanimation_summary">Animación usada al iniciar la aplicación</string>
+	<string name="pref_style_mainanimation_none">Ninguna</string>
+	<string name="pref_style_mainanimation_fadein">Gradual</string>
+	<string name="pref_style_mainanimation_slidein">Flotante</string>
+	
+	<string name="pref_style_theme">Tema</string>
+	<string name="pref_style_theme_summary">Tema usado por la applicación</string>
+	<string name="pref_style_theme_default">Normal</string>
+	<string name="pref_style_theme_tiny">Pequeño</string>
+
+	<!-- Application settings -->
+
+	<string name="pref_app">App</string>
+
+	<string name="pref_app_version_number">TITLE</string>
+	<string name="pref_app_version_number_summary">Version actual</string>
+
+	<string name="pref_app_stack_from_buttom">Lista invertida</string>
+	<string name="pref_app_stack_from_buttom_summary">La lista de feeds se ordenara de manera invertida
+	</string>
+
+	<string name="pref_app_refreshonlaunch">Refrescar al lanzar</string>
+	<string name="pref_app_refreshonlaunch_summary">Refrescar los feeds al lanzar cada página</string>
+
+	<string name="pref_app_clearcache">Limpiar caché</string>
+	<string name="pref_app_clearcache_summary">Limpiar feeds descargados</string>
+
+	<string name="pref_app_maxarticles">Artículos descargados</string>
+	<string name="pref_app_maxarticles_summary">Número de artículos que se mostrarán en pantalla
+	</string>
+	<string name="pref_app_maxarticles_10">10</string>
+	<string name="pref_app_maxarticles_20">20</string>
+	<string name="pref_app_maxarticles_40">40</string>
+	<string name="pref_app_maxarticles_ALL">Todos</string>
+	
+	<string name="pref_app_onitemclick">Selección</string>
+	<string name="pref_app_onitemclick_summary">Acción que se realizará al tocar una noticia</string>
+	<string name="pref_app_onitemclick_default">Nada</string>
+	<string name="pref_app_onitemclick_detailed">Vista detallada</string>
+	<string name="pref_app_onitemclick_open_meneame">Abrir (menéame)</string>
+	<string name="pref_app_onitemclick_open_source">Abrir (fuente)</string>
+	<string name="pref_app_onitemclick_vote">Menéalo</string>
+	<string name="pref_app_onitemclick_share">Compartir</string>
+</resources>

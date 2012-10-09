@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/pref_account">
+		<EditTextPreference android:name="pref_account_user"
+			android:title="@string/pref_account_user" android:summary="@string/pref_account_user_summary"
+			android:defaultValue="" android:key="pref_account_user"
+			android:enabled="true" android:shouldDisableView="true"
+			android:selectable="true" />
+		<EditTextPreference android:name="pref_account_user_id"
+			android:title="@string/pref_account_user_id" android:summary="@string/pref_account_user_id_summary"
+			android:defaultValue="" android:key="pref_account_user_id" />
+		<EditTextPreference android:name="pref_account_apikey"
+			android:title="@string/pref_account_apikey" android:key="pref_account_apikey"
+			android:summary="@string/pref_account_apikey_summary"
+			android:defaultValue="" />
+
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_app">
+		<Preference android:enabled="true" android:key="pref_app_version_number"
+			android:title="@string/pref_app_version_number" android:summary="@string/pref_app_version_number_summary">
+		</Preference>
+		<ListPreference android:key="pref_app_onitemclick"
+			android:summary="@string/pref_app_onitemclick_summary" android:title="@string/pref_app_onitemclick"
+			android:entries="@array/pref_app_onitemclick_entries"
+			android:entryValues="@array/pref_app_onitemclick_values"
+			android:defaultValue="Source" />
+		<ListPreference android:key="pref_app_maxarticles"
+			android:summary="@string/pref_app_maxarticles_summary" android:title="@string/pref_app_maxarticles"
+			android:entries="@array/pref_app_maxarticles_entries"
+			android:entryValues="@array/pref_app_maxarticles_values"
+			android:defaultValue="-1" />
+		<CheckBoxPreference android:key="pref_app_refreshonlaunch"
+			android:title="@string/pref_app_refreshonlaunch" android:summary="@string/pref_app_refreshonlaunch_summary"
+			android:defaultValue="false" />
+		<CheckBoxPreference android:key="pref_app_stack_from_buttom"
+			android:title="@string/pref_app_stack_from_buttom" android:summary="@string/pref_app_stack_from_buttom_summary"
+			android:defaultValue="false" />
+		<Preference android:key="pref_app_clearcache"
+			android:title="@string/pref_app_clearcache" android:summary="@string/pref_app_clearcache_summary" />
+
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/pref_style"> 
+		<ListPreference android:key="pref_style_mainanimation"
+			android:summary="@string/pref_style_mainanimation_summary"
+			android:title="@string/pref_style_mainanimation" android:entries="@array/pref_style_mainanimation_entries"
+			android:entryValues="@array/pref_style_mainanimation_values"
+			android:defaultValue="None" />
+		<ListPreference android:key="pref_style_theme"
+			android:summary="@string/pref_style_theme_summary"
+			android:title="@string/pref_style_theme" android:entries="@array/pref_style_theme_entries"
+			android:entryValues="@array/pref_style_theme_values"
+			android:defaultValue="Default" />
+	</PreferenceCategory>
+</PreferenceScreen>
