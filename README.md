@@ -1,23 +1,27 @@
 # menéame for android
 ## News
-I there, it has been some time until I did some work on the project but I will add some nice new features to it very soon. The current version (0.2.7) is just a small clean-up so that I can start with the new stuff.
+I there, it has been some time until I did some work on the project but I will add some nice new features to it very soon.
 
-### Planned features for the next release
+### Planned features for the next releases
  - New UI. The UI will be completely redone and the app will be upgraded to use the newest Android features
  - User login. Make it easy to share items directly without the need to the browser
  - Safe Stories. Save stories to your google drive, useful when you just want to save the links of the stories.
  - Search Stories. Search for stories directly.
  - Nótame. Full nótame integration.
  - Feed parser and Page crawler. To get the stories we currently use the official feeds but crawling the actual page would tel us browse it directly. This would be much faster then from the web because we only care about the important things. Story thumbnails will get loaded on-the-fly.
+ - BugFixes: The main bug that will be adressed will be the 'not-loading' bug.
 
 If there are features that you would like to see please open an issue and mark it as 'Request for change'.
 
 ## Change Log
 
-### Version 13 (0.2.7)
+### Version 14 (0.3.1)
 
- - AdMob integration test
- - General Clean-up for new UI (the new UI will be in the next release, stay tuned)
+ - 
+
+### Version 13 (0.3.0)
+
+ - Main revision and hot-fixes for Android 2.1
 
 ### Version 12 (0.2.6)
 
