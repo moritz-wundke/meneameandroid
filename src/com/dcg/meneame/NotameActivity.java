@@ -32,7 +32,7 @@ public class NotameActivity extends Activity {
 	/** Class tag used for it's logs */
 	private static final String TAG = "NotameActivity";
 
-	/** Result filed when the msg has been send to nótame */
+	/** Result filed when the msg has been send to n&#xfffd;tame */
 	private static final String NOTAME_RESULT_KEY = "notame_result";
 
 	/** Result codes used by this activity */
@@ -44,7 +44,7 @@ public class NotameActivity extends Activity {
 	/** notame thread! */
 	private NotameThread notameThread = null;
 
-	/** Basic nótame data */
+	/** Basic n&#xfffd;tame data */
 	private static final String NOTAME_URL = "http://meneame.net/api/newpost.php";
 	private static final String NOTAME_USER_FIELD = "user";
 	private static final String NOTAME_API_KEY = "key";
@@ -156,7 +156,7 @@ public class NotameActivity extends Activity {
 	/**
 	 * Encode a data text into a notame one
 	 * 
-	 * @param s
+	 * @param rawText
 	 * @return
 	 */
 	public static String encodeNotameText(String rawText) {
@@ -194,7 +194,7 @@ public class NotameActivity extends Activity {
 		@Override
 		public void run() {
 			boolean bResult = false;
-			ApplicationMNM.logCat(TAG, "Sending nótame message");
+			ApplicationMNM.logCat(TAG, "Sending n\ufffdtame message");
 
 			SharedPreferences prefs = PreferenceManager
 					.getDefaultSharedPreferences(getBaseContext());

@@ -36,7 +36,7 @@ public class DetailedArticleActivity extends FeedActivity {
 	/** Parent Feed ID where the main article is stored*/
 	private int mParentFeedID = -1;
 	
-	/** The URL used to point to menéame.net */
+	/** The URL used to point to men&#xfffd;ame.net */
 	private String mLinkURL = "";
 	
 	/** Source link */
